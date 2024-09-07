@@ -5,9 +5,11 @@ The goal of this project is to classify animals into one of seven classes using 
 
 ## Classifier Performance with MLP and k-N
 **MLP Classifier**
+
 Accuracy: Approximately 95%
 Precision and Recall: Generally high, indicating good performance in both identifying positive examples and minimizing false negatives.
 **k-NN Classifier**
+
 Accuracy: Approximately 87%
 Precision and Recall: Precision values vary depending on the task and chosen k value. Generally, precision is slightly lower compared to MLP.
 
