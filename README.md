@@ -1,7 +1,7 @@
 # Zoo Classification Project
 
-**Project Objectives**
-The goal of this project is to classify animals into one of seven classes using their features.
+## Project Objectives
+The goal of this project is to classify animals into one of seven classes using their features, and to compare the performance of MLP and k-NN classifiers, including their accuracy, precision, recall, and results from 10-fold cross-validation
 
 ## Classifier Performance with MLP and k-N
 **MLP Classifier**
