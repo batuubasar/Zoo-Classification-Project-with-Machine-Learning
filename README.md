@@ -13,7 +13,6 @@ Precision and Recall: Generally high, indicating good performance in both identi
 **k-NN Classifier**
 
 Accuracy: Approximately 87%
-
 Precision and Recall: Precision values vary depending on the task and chosen k value. Generally, precision is slightly lower compared to MLP.
 
 ## Predicting Class of a New Instance
