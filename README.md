@@ -1,29 +1,40 @@
 # Zoo Classification Project
 
-**Project Objectives**
-The goal of this project is to classify animals into one of seven classes using their features.
+## Project Objectives
+The goal of this project is to classify animals into one of seven classes using their features, and to compare the performance of MLP and k-NN classifiers, including their accuracy, precision, recall, and results from 10-fold cross-validation
 
 ## Classifier Performance with MLP and k-N
 **MLP Classifier**
+
 Accuracy: Approximately 95%
+
 Precision and Recall: Generally high, indicating good performance in both identifying positive examples and minimizing false negatives.
+
 **k-NN Classifier**
+
 Accuracy: Approximately 87%
 Precision and Recall: Precision values vary depending on the task and chosen k value. Generally, precision is slightly lower compared to MLP.
 
-**Predicting Class of a New Instance**
+## Predicting Class of a New Instance
 Both MLP and k-NN classifiers were used to predict the class of a new animal instance based on given features. Predictions from both classifiers are provided.
 
-**10-Fold Cross Validation**
-MLP Classifier: Evaluated using 10-fold cross-validation, showing metrics for accuracy, precision, and recall.
-k-NN Classifier: Also evaluated using 10-fold cross-validation, with results for accuracy, precision, and recall.
+## 10-Fold Cross Validation
+**MLP Classifier**: Evaluated using 10-fold cross-validation, showing metrics for accuracy, precision, and recall.
+**k-NN Classifier**: Also evaluated using 10-fold cross-validation, with results for accuracy, precision, and recall.
 
-**Summary of Classification Results**
+## Summary of Classification Results
 **MLP Classifier**
+
+
 Accuracy: Superior compared to k-NN, with nearly flawless performance.
+
 Precision and Recall: High values indicate effectiveness in classifying positive examples and minimizing false negatives.
+
 **k-NN Classifier**
+
+
 Accuracy: Slightly lower than MLP, but still performs well.
+
 Precision and Recall: Varies by k value, generally lower precision compared to MLP.
 Overall, the MLP classifier demonstrates better performance for this classification problem, offering higher accuracy and precision. For cases where higher accuracy and precision are required, MLP is a better choice. For more flexibility and different performance balances, k-NN could be considered.
 
