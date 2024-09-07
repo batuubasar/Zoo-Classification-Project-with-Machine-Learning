@@ -7,10 +7,13 @@ The goal of this project is to classify animals into one of seven classes using 
 **MLP Classifier**
 
 Accuracy: Approximately 95%
+
 Precision and Recall: Generally high, indicating good performance in both identifying positive examples and minimizing false negatives.
 
 **k-NN Classifier**
+
 Accuracy: Approximately 87%
+
 Precision and Recall: Precision values vary depending on the task and chosen k value. Generally, precision is slightly lower compared to MLP.
 
 ## Predicting Class of a New Instance
@@ -22,11 +25,17 @@ Both MLP and k-NN classifiers were used to predict the class of a new animal ins
 
 ## Summary of Classification Results
 **MLP Classifier**
+
+
 Accuracy: Superior compared to k-NN, with nearly flawless performance.
+
 Precision and Recall: High values indicate effectiveness in classifying positive examples and minimizing false negatives.
 
 **k-NN Classifier**
+
+
 Accuracy: Slightly lower than MLP, but still performs well.
+
 Precision and Recall: Varies by k value, generally lower precision compared to MLP.
 Overall, the MLP classifier demonstrates better performance for this classification problem, offering higher accuracy and precision. For cases where higher accuracy and precision are required, MLP is a better choice. For more flexibility and different performance balances, k-NN could be considered.
 
